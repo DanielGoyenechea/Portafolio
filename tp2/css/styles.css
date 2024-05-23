@@ -295,7 +295,7 @@ main {
     bottom: 0;
     height: 60px;
     width: 100%;
-
+background-color: white;
     display: flex;
     justify-content: space-around;
 }
