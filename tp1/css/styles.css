@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root{
+    --quick: "quicksand" , sans-serif;
+
+}
+
+
+.quicksand {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.tarjeta{
+    border-radius: 40px;
+    margin: 10px;
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    font-family:var(--quick);
+    overflow: hidden;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+}
+
+
+.imagen-tarjeta{
+    width: 100%;
+    height: 40%;
+    & img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }  
+}
+
+
+.descripcion{
+    width: 100%;
+    height: 30%;
+}
+
+.tarjeta-top{
+    margin-top: 10px;
+    width: 100%;
+    height: 7%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nombre-producto{
+    margin-top: 2px;
+    margin-right: 60px;
+    font-size: 25px;
+}
+
+.descripcion-producto{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.botonera{
+    margin-top: 30px;
+    height: 10%;
+    width: 100%;
+    font-size: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.boton-compra{
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.precio-producto{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+i{
+    margin-top: 7px;
+}
+

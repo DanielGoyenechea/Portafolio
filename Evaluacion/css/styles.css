@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.tarjeta{
+    overflow: hidden;
+    border:solid 7px black;
+    height: 600px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    border-radius: 30px;
+    position: relative;
+    gap:10px;
+}
+
+.top{
+    width: 100%;
+    background-image: url(../Img/Img-top.jpg);
+    height: 25%;
+    background-size: cover;
+
+    position: relative;
+    img{
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        background-size: cover;
+        position: absolute;
+        object-fit: cover;
+        background-size: cover;
+        background-position: top;
+        bottom: -80px;
+        left: calc(50% - 80px);
+        
+    }
+}
+
+.medio{
+    background-color: rgb(71, 71, 71);
+    height: 65%;
+    width: 100%;
+
+    h2{
+        margin-top: 25%;
+        font-size: 20px;
+        color: rgb(91, 182, 0);
+        font-family: "Montserrat", sans-serif;
+        margin-left: 8px;
+    }
+    h5{
+        margin-left: 8px;
+        color: rgb(91, 182, 0);
+        font-family: "Montserrat", sans-serif;
+    }
+    h4{
+        font-size: 13px;
+        margin-top: 40px;
+        margin-left: 8px;
+        color: rgb(91, 182, 0);
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .stats{
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        
+        margin-top: 30px;
+        color: rgb(91, 182, 0);
+        display: flex;
+        justify-content: center;
+        .iq{
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        .age{
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        .born{
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+
+            text-align: center;
+        }
+    }
+
+
+}
+
+.foot{
+    width: 100%;
+    background-image: url(../Img/Img-top.jpg);
+    height: 25%;  
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .boton{
+        width: 180px;
+        height: 40px;
+        background-color: rgb(91, 182, 0);
+        border-radius:20px ;
+        border:solid 1px black;
+    }
+
+    .boton:hover{
+        background-color: rgb(71, 71, 71);
+        transition: 0.5s;
+        color:rgb(91, 182, 0);
+    }
+}

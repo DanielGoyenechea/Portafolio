@@ -1,0 +1,464 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+}
+.icon_s{
+    font-size:12px;
+}
+.icon_m{
+    font-size: 18px;
+}
+.icon_l{
+    font-size: 26px;
+}
+.icon_x{
+    font-size: 40px;
+}
+
+
+.pd25{
+    padding: 25px;
+}
+
+header {
+    height: 70%;
+    width: 100%;
+    
+
+    .portada {
+        height: 70%;
+        width: 100%;
+
+        position: relative;
+
+        .imagen-resto {
+            height: 100%;
+            width: 100%;
+            background-image: url(../img/resta2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .saludo {
+            position: absolute;
+            height: 100px;
+            width: 200px;
+            left: 5%;
+            bottom: 30px;
+            color: white;
+            font-size: 40px;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .buscador {
+            display: flex;
+            width: 90%;
+            height: 40px;
+            position: absolute;
+            left: 5%;
+            bottom: -20px;
+            background-color: white;
+
+            .ubicacion{
+                height: 40px;
+                width: 40px;
+            
+            }
+
+            input[type=search]{
+                height: 40px;
+                width: calc(100% - 80px);
+            }
+
+            input[type=submit]{
+                height: 40px;
+                width: 40px;
+                
+            }
+        }
+
+    }
+
+    .categorias{
+        height: 30%;
+        width: 100%;
+        padding: 5%;
+        padding-top: 40px;
+        display: flex;
+        gap:40px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        a.item_cat{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+            width: 80px;
+    
+        }
+    }
+}
+
+.flex{
+    display: flex;
+}
+
+.categorias_resto{
+    height: 15%;
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    a.item_cat{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 80px;
+
+    }
+}
+.chico{
+    font-size: 20px;
+    color: white;
+}
+main {
+    height: 30% auto;
+    width: 100%;
+
+    padding: 10px;
+
+    .resultados {
+     
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .resto {
+            height: 180px;
+            width: 100%;
+            color: white;
+            font-size: 30pt;
+            position: relative;
+            .img_resto{
+                
+                height: 100%;
+                width: 50%;
+                position: absolute;
+                left: 0;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    background-size: cover;
+                    object-fit: cover;
+                }
+            }
+            .datos_resto{
+                color:black;
+                height: 100%;
+                width: 60%;
+                position: absolute;
+                right: 0;
+                border-bottom-left-radius:20px ;
+                .tituResto{
+                    padding-left: 50px;
+                    margin-top: 10px;
+                    font-size: 20px;
+                }
+       
+
+            }
+            .dato_plato{
+                padding-left: 50px;
+                margin-top: 10px;
+                font-size: 15px;
+                color: darkgrey;
+            }
+            .puntu_resto{
+                position: absolute;
+                height: 40px;
+                width: 40px;
+                background-color: aqua;
+                font-size: 22px;
+                display: grid;
+                place-items: center;
+                right: -10px;
+                top: -10px;
+                border-radius: 10px 0;
+                box-shadow: 0 0 15px -2px black ;
+            }
+        }
+    }
+
+
+}
+.resenia{
+    margin-top: 10px;
+    font-size: 15px;
+    color: darkgrey;
+}
+.resto_titulo{
+    margin-top: 10px;
+}
+.pa{
+    position: absolute;
+}
+
+.pr{
+    position: relative;
+}
+
+.centgrid{
+    display: grid;
+    place-items: center;
+}
+.redondeo{
+    border-radius:50% ;
+}
+.centflex{
+    align-items: center;
+    justify-content: center;
+}
+
+.flex100{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sombra{
+    box-shadow: 0 0 10px -3px rgba(0,0,0,0.5);
+}
+
+.img_fit{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.resto_image{
+    width: 100%;
+    height: 40%;
+    img{
+        background-size: cover;
+        object-fit: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+.resto_precio{
+    height: 40px;
+    font-weight: 600;
+    width: auto;
+    background-color: aquamarine;
+    right: 15px;
+    bottom: -15px;
+    border-radius: 8px 0;
+    padding: 8px;
+
+}
+.resto_title{
+    font-weight: 600;
+    width: auto;
+    left: 15px;
+    bottom: -15px;
+    font-size: 25px;
+
+}
+.resto_desc{
+    height: fit-content;
+    min-height: 60%;
+    width: 100%;
+    padding: 15px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.resto_menu{
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+.resto_menu2{
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.volver{
+    font-size: 30px;
+    left:15px;
+    top:15px;
+    background-color: rgba(255, 255, 255, 0.616);
+    border-radius: 50%;
+    text-decoration: none;
+    color:black;
+}
+
+.btn_menu{
+
+    flex: 1;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform:capitalize;
+}
+
+.btn_menu.active{
+    border-top:  solid 4px aquamarine;
+}
+
+.titulo_menu{
+    height: 60px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.titulo_menu2{
+    height: 60px;
+    background-color: transparent;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    
+}
+
+.contenedor_tarjetas{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding: 15px;
+    padding-bottom: 75px;
+
+    .tarjeta{
+        height: 150px;
+      
+        display: flex;
+        color: black;
+        .foto{
+            flex: 0 0 150px;
+            height: 150px;
+        }
+    }
+}
+
+.tag{
+    height: 40px;
+    font-weight: 600;
+    width: auto;
+    background-color: aquamarine;
+    right: -25px;
+    bottom: 15px;
+    border-radius: 8px 0;
+    padding: 8px;
+}
+.imagen-plato {
+    height: 60%;
+    width: 100%;
+
+
+}
+
+.textito{
+    width: 100%;
+    height: 40%;
+    color: darkgrey;
+    padding: 30px;
+    margin-top: 30px;
+    
+}
+
+.textito2{
+    width: 100%;
+    height: 40%;
+    color: darkgrey;
+    padding: 30px;
+    margin-top: 30px;
+    border-bottom: solid 1px darkgrey;
+    
+}
+
+.botonVerde{
+    width: 30%;
+    height: 100%;
+    background-color: aquamarine;
+    border: transparent;
+    border-radius: 2px;
+    font-size: 30px;
+    color: white;
+}
+
+.botonVerde2{
+    width: 60%;
+    height: 100%;
+    background-color: aquamarine;
+    border: transparent;
+    border-radius: 2px;
+    border-radius: 2px;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+@media (orientation: landscape) {
+
+    main {
+        .resultados {
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .resto{
+                flex-grow: 0;
+                flex-shrink: 0;
+                flex-basis: calc(50% - 10px);
+                /*flex:0 0 calc(50% - 10px);*/
+   
+            }
+        }
+    }
+    .contenedor_tarjetas{
+        flex-direction: row;
+        flex-wrap: wrap;
+        .tarjeta{
+            flex: 0 0 calc(50% - 10px);
+        }
+    }
+    .tituResto{
+        margin-left: 7%;
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    .dato_plato{
+        margin-left: 7%;
+        margin-top: 20px;
+        font-size: 15px;
+        color: darkgrey;
+    }
+
+
+}
+
