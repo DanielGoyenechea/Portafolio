@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none !important;
+    
+}
+a{
+    color: black;
+}
+:root {
+    --color-1: #D9C8B4; 
+    --color-2: #D9AF32; 
+    --color-3: #1C5936; 
+    --color-4: #BF6B21;
+    --color-5: #D9A7A3; 
+  }
+
+body{
+    background-color: var(--color-1);
+}
+header{
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    .saludo{
+        width: 70%;
+        height: 100%;
+      
+        display: flex;
+        align-items: center;
+        padding-left: 5%;
+        font-size: 30px;
+    }
+    .cont_foto{
+  
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .imgRedonda{
+            width: 60px;
+            height: 60px;
+            background-color: aqua;
+            border-radius: 50%;
+            overflow: hidden;
+            .img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+main{
+    width: 100%;
+    height: auto;
+   
+    .notificaciones{
+  
+        width: 100%;
+        height: 250px;
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        justify-content: start;
+        gap: 15px;
+        overflow-x: scroll;
+        .news{
+            flex: 0 0 170px;
+            height: 200px;
+            border-radius: 7px;
+            overflow: hidden;
+            background-color: white;
+            .contIcono{
+                width: 100%;
+                height: 50px;
+             
+                display: flex;
+                align-items: center;
+                .iconoRedondo{
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: var(--color-2);    
+                    border-radius: 50%;
+                    margin-left: 10px;
+                }
+                .iconoRedondo2{
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: var(--color-3);    
+                    border-radius: 50%;
+                    margin-left: 10px;
+                }
+                .iconoRedondo3{
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: var(--color-4);    
+                    border-radius: 50%;
+                    margin-left: 10px;
+                }
+            }
+        }
+        .noti{
+            color: darkgray;
+            margin-top: 25px;
+            margin-left: 10px;
+        }
+        .new{
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+    }
+    .post{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 20px;
+        .newpost{
+            width: 90%;
+            height: 450px;
+            background-color: white;
+            overflow: hidden;
+            border-radius: 10px;
+            .postTop{
+                width: 100%;
+ 
+                height: 70px;
+            
+                display:flex ;
+                .postFoto{
+                    width: 20%;
+                    height: 100%;
+                   
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .imagenRedonda{
+                        width: 50px;
+                        height: 50px;
+                        background-color: aquamarine;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        .img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                 
+                }
+                .postTitulo{
+                
+                    width: 60%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 11px;
+                    .postNombre{
+                        width: 100%;
+                        height: 30px;
+                        font-size: 17px;
+                    }
+                    .postTiempo{
+                        width: 100%;
+                        height: 30px;
+                        font-size: 15px;
+                        color: gray;
+                    }
+                }
+                .tresPuntos{
+                    width: 20%;
+                    height: 100%;
+       
+                }
+            }
+            .mypost{
+                width: 100%;
+                height: 30px;
+                
+                padding: 5px 0px 0px 15px;
+                font-size: 17px;
+            }
+            .contImagenes{
+                width: 100%;
+                height: 300px;
+             
+                display: flex;
+                gap: 10px;
+                padding: 10px;
+                .img1{
+                    width:calc(50% - 5px);
+                    height: 100%;
+                    background-color: red;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    .img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .contDerecha{
+                    width:calc(50% - 5px);
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    .img2{
+                        width: 100%;
+                        height: 50%;
+                        background-color: chartreuse;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        .img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    } 
+                }
+            }
+            .botonera{
+                width: 100%;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .boton{
+                    width: 33%;
+                    height: 100%;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }  
+    }
+}
+
+@media (min-width: 1024px) {
+    header{
+        width: 100%;
+        height: 100px;
+    
+        display: flex;
+        justify-content: space-between;
+        .saludo{
+            width: 70%;
+            height: 100%;
+          
+            display: flex;
+            align-items: center;
+            padding-left: 5%;
+            font-size: 40px;
+        }
+        .cont_foto{
+            margin-right: 20px;
+            width: 60px;
+            height: 100%;
+            display: flex;
+
+            .imgRedonda{
+                width: 60px;
+                height: 60px;
+                background-color: aqua;
+                border-radius: 50%;
+                overflow: hidden;
+                .img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    main{
+        width: 100%;
+        height: auto;
+       
+        .notificaciones{
+            margin-top: 100px;
+            width: 100%;
+            height: 250px;
+            display: flex;
+            padding: 5%;
+            align-items: center;
+            justify-content: start;
+            gap: 15px;
+            overflow-x: hidden;
+            overflow: hidden;
+            .news{
+                flex: 0 0 300px;
+                height: 200px;
+                border-radius: 7px;
+                overflow: hidden;
+                background-color: white;
+                .contIcono{
+                    width: 100%;
+                    height: 70px;
+                 
+                    display: flex;
+                    align-items: center;
+                    .iconoRedondo{
+                        width: 40px;
+                        height: 40px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: var(--color-2);    
+                        border-radius: 50%;
+                        margin-left: 10px;
+                        font-size: 20px;
+                    }
+                    .iconoRedondo2{
+                        width: 40px;
+                        height: 40px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: var(--color-3);    
+                        border-radius: 50%;
+                        margin-left: 10px;
+                        font-size: 20px;
+                    }
+                    .iconoRedondo3{
+                        width: 40px;
+                        height: 40px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: var(--color-4);    
+                        border-radius: 50%;
+                        margin-left: 10px;
+                        font-size: 20px;
+                    }
+                }
+            }
+            .noti{
+                color: darkgray;
+                margin-top: 25px;
+                margin-left: 20px;
+                font-size: 20px;
+            }
+            .new{
+                font-size: 25px;
+                font-weight: 700;
+                margin-top: 10px;
+                margin-left: 20px;
+            }
+        }
+        .post{
+            height: auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 20px;
+            .newpost{
+                width: 90%;
+                height: 640px;
+                background-color: white;
+                overflow: hidden;
+                border-radius: 10px;
+                .postTop{
+                    width: 100%;
+     
+                    height: 100px;
+                
+                    display:flex ;
+                    .postFoto{
+                        width: 90px;
+                        height: 100%;
+                       
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .imagenRedonda{
+                            width: 60px;
+                            height: 60px;
+                            background-color: aquamarine;
+                            border-radius: 50%;
+                            overflow: hidden;
+                            .img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+                     
+                    }
+                    .postTitulo{
+                    
+                        width: 60%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 20px;
+                        .postNombre{
+                            width: 100%;
+                            height: 30px;
+                            font-size: 22px;
+                        }
+                        .postTiempo{
+                            width: 100%;
+                            height: 30px;
+                            font-size: 15px;
+                            color: gray;
+                        }
+                    }
+                    .tresPuntos{
+                        width: 20%;
+                        height: 100%;
+           
+                    }
+                }
+                .mypost{
+                    width: 100%;
+                    height: 30px;
+                    
+                    padding: 5px 0px 0px 15px;
+                    font-size: 17px;
+                }
+                .contImagenes{
+                    width: 100%;
+                    height: 440px;
+                 
+                    display: flex;
+                    gap: 10px;
+                    padding: 10px;
+                    .img1{
+                        width:calc(50% - 5px);
+                        height: 100%;
+                        background-color: red;
+                        border-radius: 10px;
+                        overflow: hidden;
+                        background-position: center;
+                        .img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            background-position: center;
+                        }
+                    }
+                    .contDerecha{
+                        width:calc(50% - 5px);
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        .img2{
+                            width: 100%;
+                            height: 50%;
+                            background-color: chartreuse;
+                            border-radius: 10px;
+                            overflow: hidden;
+                            background-position: center;
+                            .img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                background-position: center;
+                            }
+                        } 
+                    }
+                }
+                .botonera{
+                    width: 100%;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .boton{
+                        width: 33%;
+                        height: 100%;
+                        font-size: 20px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }  
+        }
+    }
+}

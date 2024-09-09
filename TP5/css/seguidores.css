@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+
+}
+
+:root {
+    --color-1: #D9C8B4; 
+    --color-2: #D9AF32; 
+    --color-3: #1C5936; 
+    --color-4: #BF6B21;
+    --color-5: #D9A7A3; 
+    --color-6: #F3E6D3; 
+    --color-7: #ff4a4a;
+    --color-8:#282c34;
+  }
+
+body{
+    background-color: var(--color-1);
+
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    .title{
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        gap: 5px;
+        text-decoration: none ;
+        color: black ;
+    }
+}
+.iconos{
+    font-size: 25px;
+}
+main{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    .contSeguidores{
+        width: 100%;
+        height: auto;
+
+        .mensaje{
+            width: 100%;
+            height: 70px;
+            border-bottom: solid 1px #282c34;
+            display: flex;
+            .contFoto{
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .contRedondo{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    background-color: #D9C8B4;
+                    .img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+            .contTexto{
+                width: calc(100%-70px);
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .nombre{
+                    width: 100%;
+                    height: 40%;
+                    font-size: 20px;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+    header{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    main{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}

@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+:root {
+    --color-1: #D9C8B4; 
+    --color-2: #D9AF32; 
+    --color-3: #1C5936; 
+    --color-4: #BF6B21;
+    --color-5: #D9A7A3; 
+    --color-6: #F3E6D3; 
+    --color-7: #ff4a4a;
+    --color-8: #282c34;
+}
+
+body {
+    background: linear-gradient(135deg, var(--color-3) 20%, var(--color-1) 10%, var(--color-1) 70%, var(--color-7) 1%);
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+
+main {
+    position: relative;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+    z-index: 1; 
+    text-align: center;
+
+}
+
+
+.name {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.text {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    line-height: 1.5;
+    color: black;
+}
+
+.contBoton {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black; 
+    color: white;
+    border-radius: 5px;
+    height: 55px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 0 20px; 
+    text-align: center;
+}
+
+.boton:hover {
+    background-color: var(--color-3);
+}
+
+.contIcon {
+    width: 40px; 
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 15px; 
+}
+
+.iconos {
+    font-size: 1.5rem;
+}
+
+.contTexto {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-left: 60px; 
+}
+
+
+@media (max-width: 768px) {
+    .name {
+        font-size: 2rem;
+    }
+
+    .text {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+        padding: 0 15px;
+    }
+
+    .contBoton {
+        gap: 10px;
+    }
+
+    .boton {
+        height: 50px;
+    }
+
+    .contIcon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .iconos {
+        font-size: 1.2rem;
+    }
+
+    .contTexto {
+        font-size: 1rem;
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .name {
+        font-size: 1.8rem;
+    }
+
+    .text {
+        font-size: 0.8rem;
+        margin-bottom: 15px;
+        padding: 0 10px;
+    }
+
+    .boton {
+        height: 45px;
+    }
+
+    .contIcon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .iconos {
+        font-size: 1rem;
+    }
+
+    .contTexto {
+        font-size: 0.9rem;
+        padding-left: 40px;
+    }
+}

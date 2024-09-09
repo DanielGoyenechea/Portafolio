@@ -1,0 +1,228 @@
+{
+
+    "cantidadNotificaciones": 5,
+    "publicaciones": [
+      {
+        "nombreUsuario": "Juan perez",
+        "foto": "https://i.pinimg.com/550x/fb/45/8c/fb458c3eebb6626b780aaec2f6d076ec.jpg",
+        "tiempo":"2 Hour ago",
+        "titulo": "Paisajes",
+        "imagenes": [
+            {
+                "img1": "https://1.bp.blogspot.com/-RGrQpjj48Mo/WsuJH-wZUAI/AAAAAAAAJzE/1q3DkJDCoQsawd9VXnwOZ81Je6lQE0aEgCLcBGAs/s1600/imagenes-de-paisajes-para-dibujar-bonitos.jpg",
+                "img2": "https://cdn.pixabay.com/photo/2018/02/03/15/40/landscape-3127859_640.jpg",
+                "img3": "https://img.freepik.com/foto-gratis/hermoso-camino-madera-que-impresionantes-arboles-coloridos-bosque_181624-5840.jpg"
+
+            }
+        ],
+        "ubicacion": "ejemploUbicacion1"
+      },
+      {
+        "nombreUsuario": "Leandro Chazarreta",
+        "foto": "https://i.imgflip.com/5n8aqq.png",
+        "tiempo":"1 Hour ago",
+        "titulo": "Nuevas adquisiciones🤑",
+        "imagenes": [
+            {
+                "img1": "https://resizer.glanacion.com/resizer/v2/el-icon-of-the-seas-promete-convertirse-en-el-ZDJ6KTPN7ZH7HN2MPHKAPOIK2U.jpg?auth=036d4df8a6ad99803b496c4467e460837712133a8cb1e51bca2cc15d9a56c26b&width=880&height=586&quality=70&smart=true",
+                "img2": "https://www.shutterstock.com/image-photo/singapore-06-may-2016-real-600nw-427856797.jpg",
+                "img3": "https://i.pinimg.com/originals/e9/ea/3e/e9ea3e1be93b447e6edeb96f02a7afd3.jpg"
+
+            }
+        ],
+        "ubicacion": "ejemploUbicacion1"
+      },
+      {
+        "nombreUsuario": "Don Ibai Llanos",
+        "foto": "https://yt3.googleusercontent.com/pk-jnYnbdNBUKEtBdc3buYbCM0Xu0_TDcVfYON1qAez3CVPbA-FWGyCbF4BaRF1T9MqxjG-mugk=s900-c-k-c0x00ffffff-no-rj",
+        "tiempo":"1 Hour ago",
+        "titulo": "Paisajes",
+        "imagenes": [
+            {
+                "img1": "https://images.ecestaticos.com/Dv_QVWCaZ-N2UyHsLeXeLug50Xg=/0x0:487x436/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F4c1%2F9e2%2F015%2F4c19e20151637babb40ecf904fe1af78.jpg",
+                "img2": "https://tn.com.ar/resizer/NJkHVJs3A8vkXfsVoB7VQYloLBI=/767x0/smart/filters:format(webp)/thumbs.vodgc.net/1-14-ujU7Wp1725132360234-1725136629.jpg",
+                "img3": "https://www.telemadrid.es/2023/11/03/noticias/sociedad/_2611848874_43188828_1300x731.jpg"
+
+            }
+        ],
+        "ubicacion": "ejemploUbicacion1"
+      },
+      {
+        "nombreUsuario": "Maria Ramos",
+        "foto": "https://i.pinimg.com/736x/6d/f9/54/6df954cbc4c737038e7d7cd7c722dbb6.jpg",
+        "tiempo":"5 Hour ago",
+        "titulo": "jaja",
+        "imagenes": [
+            {
+                "img1": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/53063441-8f97-4b66-9c5a-6ae44467bec3/d8ik27c-cf5c5d03-202f-47b4-aeff-c2e4386993a3.png/v1/fill/w_400,h_584,q_80,strp/cosas_random_by_mariale123_d8ik27c-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTg0IiwicGF0aCI6IlwvZlwvNTMwNjM0NDEtOGY5Ny00YjY2LTljNWEtNmFlNDQ0NjdiZWMzXC9kOGlrMjdjLWNmNWM1ZDAzLTIwMmYtNDdiNC1hZWZmLWMyZTQzODY5OTNhMy5wbmciLCJ3aWR0aCI6Ijw9NDAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.GCHPAoVR7xnYjZatgJA4KgeVl3irry-CDwTpCUewW_E",
+                "img2": "https://i.pinimg.com/236x/5e/99/e2/5e99e2bca40bc3119d2ef6bcffb97a11.jpg",
+                "img3": "https://i.pinimg.com/280x280_RS/bb/a9/cb/bba9cb3083bc735565f61c5bdaecb7d9.jpg"
+
+            }
+        ],
+        "ubicacion": "ejemploUbicacion1"
+      },
+      {
+        "nombreUsuario": "David fernandez",
+        "foto": "https://cdn.bariloche2000.com/uploads/images/2022/04/8ee06457-f2a3-5aec-9e10-bdce48d92152_mid.jpg",
+        "tiempo":"1 Hour ago",
+        "titulo": "BOCAAAA",
+        "imagenes": [
+            {
+                "img1": "https://assets.dev-filo.dift.io/img/2024/05/20/advinculafestejojpeg1918_sq.jpg",
+                "img2": "https://media.lacapital.com.ar/p/e75fa9cc725c674f0584dd6afd0aa554/adjuntos/204/imagenes/101/424/0101424582/kevin-zenonjpg.jpg",
+                "img3": "https://www.rionegro.com.ar/wp-content/uploads/2024/06/GQoZGO9WsAAbbVj.jpg"
+
+            }
+        ],
+        "ubicacion": "ejemploUbicacion1"
+      }
+
+      
+    ],
+    
+      "stories": [
+        {
+          "name": "Alicia Garcia",
+          "profile_picture": "https://pymstatic.com/5844/conversions/personas-emocionales-wide_webp.webp",
+          "story_picture": "https://www.dzoom.org.es/wp-content/uploads/2017/07/seebensee-2384369-810x540.jpg"
+        },
+        {
+          "name": "Jane Smith",
+          "profile_picture": "https://www.hola.com/horizon/landscape/6a53cd5134b2-getty-chica-feliz-t.jpg?im=Resize=(640),type=downsize",
+          "story_picture": "https://s3.abcstatics.com/media/gurmesevilla/2012/01/comida-rapida-casera.jpg"
+        },
+        {
+          "name": "Carlos Rivera",
+          "profile_picture": "https://covalto.com/static/78498ccda70933a5f1e3edc3e40d3cbe/34aca/Hero_Mobile_Cuenta_Personas_V1_1_8046e424ea.webp",
+          "story_picture": "https://hips.hearstapps.com/hmg-prod/images/cafe-1599479980.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*"
+        },
+        {
+          "name": "Lautaro Diaz",
+          "profile_picture": "https://media.revistagq.com/photos/5fa18936d7a87a4a317ed237/1:1/w_945,h_945,c_limit/personas-seguras-de-si-mismas.jpg",
+          "story_picture": "https://cdn.britannica.com/92/13192-050-6644F8C3/bananas-bunch.jpg"
+        },
+        {
+          "name": "Alex Palmer",
+          "profile_picture": "https://st1.uvnimg.com/dims4/default/d90db8b/2147483647/thumbnail/400x225/quality/75/?url=https%3A%2F%2Fuvn-brightspot.s3.amazonaws.com%2Fassets%2Fvixes%2Fm%2Fmujer-toca-su-cabello-negro.jpg",
+          "story_picture": "https://assets.elgourmet.com/wp-content/uploads/2023/03/pizza_Mh3H4eanyBKEsStv1YclPWTf9OUqIi.png"
+        },        {
+          "name": "Alexis Sanchez",
+          "profile_picture": "https://www.lavanguardia.com/files/image_480_496/files/fp/uploads/2021/09/30/6154f27965814.r_d.528-377.jpeg",
+          "story_picture": "https://fbi.cults3d.com/uploaders/13717901/illustration-file/3a47c147-57ea-426f-b2e4-0444daa55574/sumo_bot_display_large.jpg"
+        },
+        {
+          "name": "Leandro Herrera",
+          "profile_picture": "https://s2.abcstatics.com/media/bienestar/2022/06/01/jesus-matos-2-kQVC--1248x698@abc.png",
+          "story_picture": "https://www.laboratoridau.com/wp-content/uploads/2021/09/laboratori-dau-control-calidad-c.jpg"
+        }
+      ],
+      "messages": [
+    {
+      "name": "John Doe",
+      "photo": "https://covalto.com/static/78498ccda70933a5f1e3edc3e40d3cbe/34aca/Hero_Mobile_Cuenta_Personas_V1_1_8046e424ea.webp",
+      "message_count": 15
+    },
+    {
+      "name": "Jane Smith",
+      "photo": "https://pymstatic.com/5844/conversions/personas-emocionales-wide_webp.webp  ",
+      "message_count": 3
+    },
+    {
+      "name": "Carlos García",
+      "photo": "https://media.revistagq.com/photos/5fa18936d7a87a4a317ed237/1:1/w_945,h_945,c_limit/personas-seguras-de-si-mismas.jpg",
+      "message_count": 2
+    },
+    {
+      "name": "Maria Rodríguez",
+      "photo": "https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg",
+      "message_count": 10
+    },
+    {
+      "name": "Michael Brown",
+      "photo": "https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29uYXxlbnwwfHwwfHx8MA%3D%3D",
+      "message_count": 7
+    },    {
+      "name": "Carlos García",
+      "photo": "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "message_count": 4
+    },    {
+      "name": "Federico Gonzalez",
+      "photo": "https://www.exitopersonal.com/imagenes/9-rasgos-comunes-en-las-personas-exitosas_x2.jpg",
+      "message_count": 2
+    },    {
+      "name": "Manuel Herrera",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwhti8IqbCY5XdOqGdDqPOqVivaXQurUvJLN5hOkuziuWm0YtNohxYS29n3PThdOMOaiM&usqp=CAU",
+      "message_count": 6
+    },    {
+      "name": "Agustin Fernandez",
+      "photo": "https://www.lavanguardia.com/files/image_480_496/files/fp/uploads/2021/09/30/6154f27965814.r_d.528-377.jpeg",
+      "message_count": 2
+    },    {
+      "name": "Juana escobar",
+      "photo": "https://s1.elespanol.com/2023/06/08/vivir/salud-mental/769933690_233804290_1706x960.jpg",
+      "message_count": 4
+    },    {
+      "name": "jose json",
+      "photo": "https://pachis2.wordpress.com/wp-content/uploads/2008/09/foto-director-maynor-cruzweb.jpg",
+      "message_count": 5
+    }
+  ],      
+  "followers": [
+    {
+      "name": "John Doe",
+      "photo": "https://covalto.com/static/78498ccda70933a5f1e3edc3e40d3cbe/34aca/Hero_Mobile_Cuenta_Personas_V1_1_8046e424ea.webp",
+      "message_follow": "Comenzo a seguirte hace 1 hora"
+    },
+    {
+      "name": "Jane Smith",
+      "photo": "https://pymstatic.com/5844/conversions/personas-emocionales-wide_webp.webp  ",
+      "message_follow": "Comenzo a seguirte hace 2 horas"
+    },
+    {
+      "name": "Carlos García",
+      "photo": "https://media.revistagq.com/photos/5fa18936d7a87a4a317ed237/1:1/w_945,h_945,c_limit/personas-seguras-de-si-mismas.jpg",
+      "message_follow": "Comenzo a seguirte hace 10 horas"
+    },
+    {
+      "name": "Maria Rodríguez",
+      "photo": "https://laboratoriosniam.com/wp-content/uploads/2018/07/michael-dam-258165-unsplash_WEB2.jpg",
+      "message_follow": "Comenzo a seguirte hace 10 horas"
+    },
+    {
+      "name": "Michael Brown",
+      "photo": "https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29uYXxlbnwwfHwwfHx8MA%3D%3D",
+      "message_follow":"Comenzo a seguirte hace 15 horas"
+    },    {
+      "name": "Carlos García",
+      "photo": "https://images.pexels.com/photos/2876486/pexels-photo-2876486.png?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "message_follow":"Comenzo a seguirte hace 20 horas"
+    },    {
+      "name": "Federico Gonzalez",
+      "photo": "https://www.exitopersonal.com/imagenes/9-rasgos-comunes-en-las-personas-exitosas_x2.jpg",
+      "message_follow":"Comenzo a seguirte hace 23 horas"
+    },    {
+      "name": "Manuel Herrera",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwhti8IqbCY5XdOqGdDqPOqVivaXQurUvJLN5hOkuziuWm0YtNohxYS29n3PThdOMOaiM&usqp=CAU",
+      "message_follow":"Comenzo a seguirte hace 1 dia"
+    },    {
+      "name": "Agustin Fernandez",
+      "photo": "https://www.lavanguardia.com/files/image_480_496/files/fp/uploads/2021/09/30/6154f27965814.r_d.528-377.jpeg",
+      "message_follow":"Comenzo a seguirte hace 3 dias"
+    },    {
+      "name": "Juana escobar",
+      "photo": "https://s1.elespanol.com/2023/06/08/vivir/salud-mental/769933690_233804290_1706x960.jpg",
+      "message_follow":"Comenzo a seguirte hace 5 dias"
+    },    {
+      "name": "jose json",
+      "photo": "https://pachis2.wordpress.com/wp-content/uploads/2008/09/foto-director-maynor-cruzweb.jpg",
+      "message_follow":"Comenzo a seguirte hace 8 dias"
+    },    {
+      "name": "Arturo vidal",
+      "photo": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/ARTURO%20VIDAL.jpg",
+      "message_follow":"Comenzo a seguirte hace 8 dias"
+    }
+  ]
+    
+    
+  }
